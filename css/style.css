@@ -149,3 +149,18 @@ li a:hover {
   .finger {
     padding-left: 20px;
   }
+
+  .parentContainer {
+    display: flex;
+    flex-shrink: inherit;
+    background-color: darkkhaki;
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .flexChild {
+    padding: 10px;
+    margin: 20px;
+    background-color: darkolivegreen;
+  }
