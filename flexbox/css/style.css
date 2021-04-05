@@ -1,0 +1,46 @@
+  
+  h1 {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.flex-container {
+    display: flex;
+  }
+  
+.flex-container > div {
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+  }
+
+.left {
+    width: 55%;
+  }
+  
+.right {
+    width: 45%;
+  }
+
+  .finger {
+    padding-left: 20px;
+  }
+
+  .parentContainer {
+    display: flex;
+    background-color: darkkhaki;
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .flexChild {
+    padding: 10px;
+    margin: 20px;
+    background-color: darkolivegreen;
+  }

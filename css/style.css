@@ -84,7 +84,7 @@ li a:hover {
     width: 100%;
   }
 .header-1 { 
-    background-color: cornflowerblue;
+    background-color: #6CC3F9;
     padding-top: 10px;
     padding-left: 20px;
     min-height: 68px;
@@ -152,7 +152,6 @@ li a:hover {
 
   .parentContainer {
     display: flex;
-    flex-shrink: inherit;
     background-color: darkkhaki;
     padding: 20px;
     width: 100%;
