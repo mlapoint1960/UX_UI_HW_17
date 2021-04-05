@@ -2,40 +2,20 @@
   h1 {
 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkkhaki;
   }
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
+
+  p {
+    font-family: monospace;
+    font-size: 1rem;
   }
-.flex-container {
+  .flexParent {
     display: flex;
-  }
-  
-.flex-container > div {
-    background-color: #ffffff;
-    margin: 10px;
-    padding: 20px;
-  }
-
-.left {
-    width: 55%;
-  }
-  
-.right {
-    width: 45%;
-  }
-
-  .finger {
-    padding-left: 20px;
-  }
-
-  .parentContainer {
-    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
     background-color: darkkhaki;
     padding: 20px;
-    width: 100%;
+    border-radius: 0px;
     margin: auto;
   }
 
@@ -43,4 +23,26 @@
     padding: 10px;
     margin: 20px;
     background-color: darkolivegreen;
+  }
+
+  .topbox {
+    padding: 2%;
+    border-color: orange;
+    background-color: lightcyan;
+    border-width: 20px;
+    border-style: double;
+    border-radius: 20px;
+  }
+
+  figure {
+    margin: auto;
+  }
+  
+  figcaption {
+    color: white;
+    font-family: monospace;
+    font-size: 12px;
+    font-style: italic;
+    padding: 2px;
+    text-align: left;
   }
