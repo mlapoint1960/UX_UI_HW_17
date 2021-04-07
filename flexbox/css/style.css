@@ -65,7 +65,6 @@
   .containerGrid-2 {
     display: row;
     grid-template-rows: 25% 25% 25% 25%;
-    grid-row-gap: 20px;
     font-size: 36px;
     margin-top: 2em;
     background-color: lightcoral;
