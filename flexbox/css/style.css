@@ -50,7 +50,7 @@
   .containerGrid {
     display: grid;
     column-gap: 20px;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: auto auto auto auto;
     font-size: 36px;
     margin-top: 2em;
     background-color: white;
@@ -59,19 +59,25 @@
   .child {
     border:solid;
     border-width: 1px;
+    font-family: monospace;
+    text-align: center;
     background-color: lightsalmon;
   }
 
   .containerGrid-2 {
-    display: row;
-    grid-template-rows: 25% 25% 25% 25%;
+    display: grid;
+    padding: 10px;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    grid-template-columns: auto auto auto auto;
     font-size: 36px;
     margin-top: 2em;
-    background-color: lightcoral;
+    background-color:yellow;
   }
   
   .containerGrid-3 {
     display: grid;
+    margin-top: 2em;
     column-gap: 20px;
     row-gap: 20px;
     padding: 20px;
