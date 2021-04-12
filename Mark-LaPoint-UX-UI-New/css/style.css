@@ -1,0 +1,386 @@
+
+
+/* max: 700px--------------------------------------------------------- */
+
+@media only screen and (max-device-width:700px){
+
+.bodyStyle {
+    margin: 0px;
+    background-color:thistle;
+    }
+
+h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5em;
+}       
+    
+
+.headerNav {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color:cadetblue;
+    padding: 10px 10px 0px 10px;
+    }
+
+.flexbox-Menu {
+    display: grid;
+    justify-content: right;
+    background-color: darkorange;
+    }
+
+.ulmenugrid {
+    display: grid;
+    margin-top: 0px;
+    }
+
+.logo {
+    display: grid;
+    justify-content: left;
+    }
+
+.logo1 {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 90%;
+
+    }
+
+.logo2 {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 80%; 
+    }
+
+.logoFlexBox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    }
+
+.logoFlexChild-1 {
+    display: flex;
+    justify-content: flex-start;
+    }
+
+.logoFlexChild-2 {
+    display: flex;
+    justify-content: flex-end;
+    }
+
+ul  {
+    list-style-type: none;
+    }
+
+li {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.25em;
+    text-align: right;
+    color:darkslategray;
+    display:list-item;
+    text-decoration: none;
+    }
+
+li a {
+    display: inline-block;
+    text-decoration: none;
+    }
+li a:link {
+    color:darkslategray;
+    }   
+    
+li a:visited {
+    color:darkslategray;
+    } 
+
+li a:active {
+    color:darkslategrey;
+    }         
+
+        
+
+.section-flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+
+.flexbox-Item {
+    display: flex;
+    }
+
+
+.flexboxItem-1 {
+    padding: 0px 10px 0px 10px;
+
+    }
+.flexboxItem-2 {
+    padding: 0px 10px 0px 10px;
+    }
+
+.flexboxItem-3 {
+    display: flex;
+    }
+
+.casestudyimg {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    }
+
+
+.contactFlex-container {
+    display: flex;
+    }
+
+.contactFlexBox {
+    padding-left: 10px;
+    }
+
+.contactFlexBox-logos-1 {
+    min-height: 30px;
+    margin-right: 10px;
+    }
+
+}
+
+
+/* 701-1000px--------------------------------------------------------- */
+
+
+@media only screen and (min-device-width:701px) and (max-width:1000px){
+
+
+    
+
+.bodyStyle {
+
+    margin: 0px;
+    background-color:cadetblue;
+    }
+
+
+
+
+}
+
+/* 1001-3000px------------------------BIG SCREENS----------------------- */
+
+/* 1001-3000px------------------------BIG SCREENS----------------------- */
+
+@media only screen and (min-device-width:1001px) and (max-width:3000px){
+
+
+.bodyStyle {
+    margin: 0px;
+    background-color:lightsalmon;
+    }
+/* nav */
+.headerNav {
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    background-color:cadetblue;
+    padding: 10px 10px 10px 10px;
+    
+    }
+    .grid-content-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+        "logoFlexBox" 
+        "section-flex-container" 
+        "section-flex-container" 
+        "section-flex-container section-flex-container"
+        "section-flex-container section-flex-container";
+    
+    
+    }
+
+/*not used
+.flexbox-Menu {
+    display: grid;
+    justify-content: right;
+    background-color: darkorange;
+    }
+not used  */ 
+
+
+.ulmenugrid {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    }
+      
+
+ul  {
+    list-style-type: none;
+    overflow: hidden;
+    }    
+        
+li {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.25em;
+    text-align: right;
+    color:darkslategray;
+    display:list-item;
+    text-decoration: none;
+    }
+        
+li a {
+    text-decoration: none;
+    }
+        
+li a:link {
+    color:darkslategray;
+    }   
+            
+li a:visited {
+    color:darkslategray;
+    } 
+        
+li a:active {
+    color:darkslategray;
+    }   
+        
+li a:hover {
+    color:darkslategray;
+    }     
+
+/* end header nav */    
+        
+.contactFlex-container {
+    display: flex;
+    }
+        
+.contactFlexBox {
+    padding-left: 10px;
+    }
+        
+.contactFlexBox-logos-1 {
+    min-height: 30px;
+    margin-right: 10px;
+    }
+
+.logoFlexBox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    }
+            
+.logoFlexChild-1 {
+    display: flex;
+    justify-content: flex-start;
+    }
+            
+.logoFlexChild-2 {
+    display: flex;
+    justify-content: flex-end;
+    }
+
+.logo {
+    display: grid;
+    justify-content: left;
+    }
+            
+.logo1 {
+    display: flex;
+    justify-content: flex-start;
+            
+    }
+            
+.logo2 {
+    display: flex;
+    justify-content: flex-start;
+    }   
+    
+    h2 {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 1.5em;
+    }     
+.section-flex-container {
+    display: grid;
+    grid-template-columns: subgrid;        
+    }
+    
+.flexbox-Item {
+    display: flex;
+    }  
+    
+.flexboxItem-1 {
+    padding: 0px 10px 0px 10px;
+    }
+    
+.flexboxItem-2 {
+    padding: 0px 10px 0px 10px;
+    }
+    
+.flexboxItem-3 {
+    display: flex;
+    }
+
+}
+/* end of responsive*/
+
+
+
+
+#footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 100px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: darkslategray;
+}
+.p1 {
+
+    font-family: monospace;
+    color: floralwhite;
+    font-size: 1em;
+    line-height: 135%;
+}
+
+.p2 {
+
+    font-family: monospace;
+    color:darkslategray;
+    font-size: 1em;
+    line-height: 135%;
+}
+
+p.footer{
+
+    font-family: monospace;
+    color:lemonchiffon;
+    font-size: .5em;
+}
+
+.footerli {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: .75em;
+    text-align: right;
+    color:antiquewhite;
+    display:list-item;
+    text-decoration: none;
+    }
+
+ul {
+    display: inline;
+    }
+
+li a {
+    display: inline-block;
+    text-decoration: none;
+    }
+li a:link {
+    color:antiquewhite;
+    }   
+    
+li a:visited {
+    color:antiquewhite;
+    } 
+
+li a:active {
+    color:darkslategrey;
+    } 
