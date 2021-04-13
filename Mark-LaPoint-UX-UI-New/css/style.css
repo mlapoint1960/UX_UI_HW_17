@@ -51,19 +51,19 @@ h2 {
     max-width: 80%; 
     }
 
-.logoFlexBox {
+.logoBox {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     padding: 10px;
     }
 
-.logoFlexChild-1 {
+.logoChild-1 {
     display: flex;
     justify-content: flex-start;
     }
 
-.logoFlexChild-2 {
+.logoChild-2 {
     display: flex;
     justify-content: flex-end;
     }
@@ -99,28 +99,34 @@ li a:active {
 
         
 
-.section-flex-container {
+.section-container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     }
 
-.flexbox-Item {
+.box-Item {
     display: flex;
     }
 
 
-.flexboxItem-1 {
+.boxItem-1 {
     padding: 0px 10px 0px 10px;
 
     }
-.flexboxItem-2 {
+.boxItem-2 {
     padding: 0px 10px 0px 10px;
     }
 
-.flexboxItem-3 {
+.boxItem-3 {
     display: flex;
     }
+.boxItem-4 {
+    display: flex;
+    }   
+.boxItem-5 {
+    display: flex;
+    }   
 
 .casestudyimg {
     width: 100%;
@@ -129,15 +135,15 @@ li a:active {
     }
 
 
-.contactFlex-container {
+.contact-container {
     display: flex;
     }
 
-.contactFlexBox {
+.contactBox {
     padding-left: 10px;
     }
 
-.contactFlexBox-logos-1 {
+.contactBox-logos-1 {
     min-height: 30px;
     margin-right: 10px;
     }
@@ -181,21 +187,8 @@ li a:active {
     grid-template-columns: 5fr 3fr;
     background-color:cadetblue;
     padding: 10px 10px 10px 10px;
-    
     }
-    .grid-content-section {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-areas:
-        "logoFlexBox" 
-        "section-flex-container" 
-        "section-flex-container" 
-        "section-flex-container section-flex-container"
-        "section-flex-container section-flex-container";
-    
-    
-    }
+
 
 /*not used
 .flexbox-Menu {
@@ -247,80 +240,92 @@ li a:hover {
     }     
 
 /* end header nav */    
-        
-.contactFlex-container {
-    display: flex;
-    }
-        
-.contactFlexBox {
-    padding-left: 10px;
-    }
-        
-.contactFlexBox-logos-1 {
-    min-height: 30px;
-    margin-right: 10px;
-    }
 
-.logoFlexBox {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 10px;
+            
+.logoChild-1 {
+    display: grid;
     }
             
-.logoFlexChild-1 {
-    display: flex;
-    justify-content: flex-start;
-    }
-            
-.logoFlexChild-2 {
-    display: flex;
-    justify-content: flex-end;
+.logoChild-2 {
+    display: grid;
     }
 
 .logo {
     display: grid;
-    justify-content: left;
     }
             
 .logo1 {
-    display: flex;
-    justify-content: flex-start;
-            
+    grid-column-start: 1;        
     }
             
 .logo2 {
-    display: flex;
-    justify-content: flex-start;
+    grid-column-end: 1;    
     }   
     
-    h2 {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 1.5em;
+h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5em;
     }     
-.section-flex-container {
+.section-container {
     display: grid;
-    grid-template-columns: subgrid;        
+    grid-template-columns: 700px 585px;
     }
-    
-.flexbox-Item {
-    display: flex;
+.logoBox {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding: 10px;
+    }    
+
+.box-Item {
+    display: grid;  
     }  
-    
-.flexboxItem-1 {
+
+.boxItem-1 {
+    grid-row-start: 2;
     padding: 0px 10px 0px 10px;
     }
     
-.flexboxItem-2 {
+.boxItem-2 {
+    grid-row-start: 2;
+    grid-row-end: 3;
     padding: 0px 10px 0px 10px;
     }
     
-.flexboxItem-3 {
+.boxItem-3 {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+
+    padding: 0px 10px 10px 10px;
+    }
+
+.boxItem-4 {
+    display: grid;
+    padding: 0px 10px 10px 10px;
+    }
+
+.boxItem-5 {
+    display: grid;
+    padding: 0px 10px 10px 10px;
+    }
+
+.contact-container {
     display: flex;
+    flex-direction: column;
+    }
+                    
+.contactBox {
+    padding-left: 10px;
+    }
+                    
+.contactBox-logos-1 {
+    min-height: 30px;
+    margin-right: 10px;
     }
 
 }
-/* end of responsive*/
+/* end of responsive-------------------------------------------------------------------*/
 
 
 
