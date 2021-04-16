@@ -105,16 +105,7 @@
         flex-wrap: wrap;
         padding: 10px;
         }
-    
-    .logoChild-1 {
-        display: flex;
-        justify-content: flex-start;
-        }
-    
-    .logoChild-2 {
-        display: flex;
-        justify-content: flex-end;
-        }
+
     
     ul  {
         list-style-type: none;
@@ -442,25 +433,20 @@
     
     
     
-    .footer {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        height: 100px;
-        margin-top: 10px;
-        padding: 10px;
-        background-color: darkslategray;
-    }
 
     
     .p2 {
-    
         font-family: monospace;
         color:darkslategray;
         font-size: 1em;
         line-height: 135%;
     }
+
+    .ulmenugrid {
+        margin-top: 0px;
+        }
     
-    p.footer{
+    .pfooter{
     
         font-family: monospace;
         color:lemonchiffon;
@@ -495,6 +481,15 @@
     li a:active {
         color:darkslategrey;
         } 
+
+    .footer-container {
+        display: grid;
+        height: 100px;
+        margin-top: 10px;
+        padding: 10px;
+        background-color: darkslategray;
+        grid-template-columns: 2fr 1fr;
+        }
 
 
 
@@ -548,5 +543,27 @@
     .boxItem-5 {
         display: grid;
         padding: 0px 10px 10px 10px;
-        }   
+        } 
+            
+    .logoChild-1 {
+        display: flex;
+        justify-content: flex-start;
+        }
+    
+    .logoChild-2 {
+        display: flex;
+        justify-content: flex-end;
+        }
+    .footer {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        height: 100px;
+        margin-top: 10px;
+        padding: 10px;
+        background-color: darkslategray;
+    }
+
+
+
+
     not used  */ 
