@@ -1,28 +1,37 @@
 
 
-/* max: 480px--------------------------------------------------------- */
+/* max: 700px--------------------------------------------------------- */
 
-@media only screen and (max-device-width:480px){
+@media only screen and (max-device-width:700px){
 
-    .bodyStyle {
-        margin: 0px;
-        background-color:thistle;
-        }
+.bodyStyle {
+    margin: 0px;
+    background-color:thistle;
+    }
     
-    h2 {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 1.5em;
-    }       
+h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5em;
+    }  
     
-    .headerNav {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        background-color:cadetblue;
-        padding: 10px 10px 0px 10px;
-        }
+.p1 {
+    font-family: monospace;
+    color:gray;
+    font-size: 1em;
+    line-height: 135%;
+    } 
+     
+    
+.headerNav {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color:cadetblue;
+    }
 
 .logo {
     display: grid;
+    padding-left: 10px;
+    padding-top: 10px;
     justify-content: left;
     }
         
@@ -40,61 +49,57 @@
     border-width: 1px;
     }
     
-        .item-1 {
-            padding-left: 10px;
-            padding-right: 10px;
-            grid-column-start: 1;
-            grid-column-end:3;
-            }   
-        .item-2 {
-            grid-column-start: 1;
-            grid-column-end: 3;
-            grid-row: 5 / 9;
-            }    
-        .item-3 {
-            padding-right: 10px;
-            padding-left: 10px;
-            grid-column-start: 1;
-            grid-column-end: 3;
-            grid-row-start: 2;
-            grid-row-end: 7;
-            }    
-        .item-4 {
-            grid-column-start: 1;
-            grid-column-end: 2;
-            grid-row-start: 4;
-            grid-row-end: 9;
-    
-        }    
-        .item-5 {
-            padding-left: 10px;
-            padding-right: 10px;
-            grid-column-start: 1;
-            grid-column-end: 3;
-            grid-row-start: 9;
-            grid-row-end: 10;
-        } 
-    
-    
-    .ulmenugrid {
-        display: grid;
-        margin-top: 0px;
-        }
-    
+.item-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+    grid-column-start: 1;
+    grid-column-end:3;
+    }   
+        
+.item-2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 5 / 9;
+    }    
 
-    .logo1 {
-        display: block;
-        margin-right: auto;
-        width: 100%;
-        }
+.item-3 {
+    padding-right: 10px;
+    padding-left: 10px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 7;
+    }    
+
+.item-4 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 9;
+    }    
+       
+.item-5 {
+    padding-left: 10px;
+    padding-right: 10px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    } 
+
+.logo1 {
+    display: block;
+    margin-right: auto;
+    width: 90%;
+    }
             
-    .logo2 {
-        display: block;
-        margin-left: auto;
-        width: 100%;
-        } 
+.logo2 {
+    display: block;
+    margin-left: auto;
+    width: 80%;
+    } 
 
-
+/*
     
     ul  {
         list-style-type: none;
@@ -125,64 +130,69 @@
         color:darkslategrey;
         }         
     
-            
-    
-    .section-container {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
+    */
+
+
+/* new nav */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color:cadetblue;
+    }
+
+li {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: .75em;
+    text-align: right;
+    color:darkslategray;
+    }
+      
+li a {
+        display: block;
+        color: #000;
+        padding: 2px 8px;
+        text-decoration: none;
         }
+      
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+    }
+
+/* new nav */     
     
-    .box-Item {
-        display: flex;
-        }
-    
-    
-    .boxItem-1 {
-        padding: 0px 10px 0px 10px;
-    
-        }
-    .boxItem-2 {
-        padding: 0px 10px 0px 10px;
-        }
-    
-    .boxItem-3 {
-        display: flex;
-        }
-    .boxItem-4 {
-        display: flex;
-        }   
-    .boxItem-5 {
-        display: flex;
-        }   
-    
-    .casestudyimg {
-        width: 100%;
-        height: auto;
-        margin-bottom: 20px;
-        }
-    
-    
-    .contact-container {
-        display: flex;
-        }
-    
-    .contactBox {
-        padding-left: 10px;
-        }
-    
-    .contactBox-logos-1 {
-        min-height: 30px;
-        margin-right: 10px;
-        }
-    
+.casestudyimg {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
     }
     
     
-    /* 481-1000px--------------------------------------------------------- */
+.contact-container {
+    display: flex;
+    }
+    
+.contactBox {
+    padding-left: 0px;
+    }
+    
+.contactBox-logos-1 {
+    min-height: 30px;
+    margin-right: 10px;
+    }
+    
+
+
+}
     
     
-    @media only screen and (min-device-width:481px) and (max-width:1000px){
+/* 701-1000px--------------------------------------------------------- */
+    
+    
+@media only screen and (min-device-width:481px) and (max-width:1000px){
     
     
         
@@ -195,26 +205,30 @@
 h2 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.5em;
-    }       
+    }    
+    
+.p1 {
+    font-family: monospace;
+    color:gray;
+    font-size: 1em;
+    line-height: 135%;
+    }
         
 /* top nav */
 .headerNav {
     display: grid;
-    grid-template-columns: 2fr 5fr;
+    grid-template-columns: 6fr 1fr;
     background-color:cadetblue;
-    padding: 10px 10px 10px 10px;
      }
 
 .logo {
     grid-column-start: 1;
-    padding-left: .75em;
+    padding-top: 1em;
+    padding-left: 1em;
     }
 
-.ulmenugrid {
-    grid-column-start: 3;
-    grid-column-end: 7;
-    }
-          
+
+/* old nav          
     
     ul  {
         list-style-type: none;
@@ -249,121 +263,147 @@ h2 {
     li a:hover {
         color:darkslategray;
         } 
+*/  
 
-/* Nav 8/        
+/* new nav */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color:cadetblue;
+    }
+
+li {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: .75em;
+    text-align: right;
+    color:darkslategray;
+    }
+      
+li a {
+        display: block;
+        color: #000;
+        padding: 2px 8px;
+        text-decoration: none;
+        }
+      
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+    }
+
+/* new nav */
 
 
 /* grids */ 
      
-    .grid-container {
+.grid-container {
+    display: grid;
+    padding-left: 3%;
+    padding-right: 3%;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 10px;
+    }
 
-        display: grid;
-        padding-left: 5%;
-        padding-right: 5%;
-        grid-template-columns: repeat(7, 1fr);
-        grid-gap: 20px;
-        }
+.grid-item {
+    border: dotted red;
+    border-width: 1px;
+    }
 
-    .grid-item {
-        border: dotted red;
-        border-width: 1px;
-        }
+.item-1 {
+    padding-left: 0px;
+    padding-right: 0px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+     }   
 
-    .item-1 {
-        grid-column-start: 1;
-        grid-column-end: 4;
-     
-
-        }   
-    .item-2 {
-        grid-column-start: 4;
-        grid-column-end: 8;
-        grid-row: 1 / 12;
-        }    
-    .item-3 {
-        grid-column-start: 1;
-        grid-column-end: 4;
-        grid-row-start: 2;
-        grid-row-end: 9;
-        }    
-    .item-4 {
-        grid-column-start: 4;
-        grid-column-end: 8;
-        grid-row-start: 4;
-        grid-row-end: 9;
-
+.item-2 {
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row: 1 / 12;
     }    
-    .item-5 {
-        grid-column-start: 1;
-        grid-column-end: 4;
-        grid-row-start: 9;
-        grid-row-end: 10;
-    } 
-    
-    .logo1 {
-        display: block;
-        margin-right: auto;
-        width: 100%;
-        }
-        
-    .logo2 {
-        display: block;
-        margin-left: auto;
-        width: 80%;
-       } 
 
-.casestudyimg {
-        width: 100%;
-        height: auto;
-        padding: 0;
-        }
-    
-    
-    
-    
+.item-3 {
+    padding-left: 0px;
+    padding-right: 0px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 9;
+    }    
+
+.item-4 {
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row-start: 4;
+    grid-row-end: 9;
+    }    
+
+.item-5 {
+    padding-left: 0px;
+    padding-right: 0px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 9;
+    grid-row-end: 10;
     }
     
-    /* 1001-3000px------------------------BIG SCREENS----------------------- */
+.logo1 {
+    display: block;
+    margin-right: auto;
+    width: 90%;
+    }
+            
+.logo2 {
+    display: block;
+    margin-left: auto;
+    width: 80%;
+    }     
+
+
+.casestudyimg {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    }
+
+
     
-    /* 1001-3000px------------------------BIG SCREENS----------------------- */
-    
-    @media only screen and (min-device-width:1001px) and (max-width:3000px){
-    h2 {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 1.75em;
-        line-height: 135%;
-        }    
     
     
-    .p1 {
+}
     
-        font-family: monospace;
-        color:gray;
-        font-size: 1.25em;
-        line-height: 135%;
-        }
+/* 1001-3000px------------------------BIG SCREENS----------------------- */
+    
+/* 1001-3000px------------------------BIG SCREENS----------------------- */
+    
+@media only screen and (min-device-width:701px) and (max-width:3000px){
+
+h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.75em;
+    line-height: 135%;
+    }    
     
     
-    .bodyStyle {
-        margin: 0px;
-        background-color:lightsalmon;
-        }
+.p1 {
+    font-family: monospace;
+    color:gray;
+    font-size: 1.25em;
+    line-height: 135%;
+    }
+    
+    
+.bodyStyle {
+    margin: 0px;
+    background-color:lightsalmon;
+    }
     
 
     
-    /* nav */
-    .headerNav {
-        display: grid;
-        grid-template-columns: 5fr 3fr;
-        background-color:cadetblue;
-        padding: 10px 10px 10px 10px;
-        }
-
-    .logo {
-        display: grid;
-        }
-                        
-    
+/* old nav   
     
     .ulmenugrid {
         display: grid;
@@ -405,100 +445,142 @@ h2 {
         color:darkslategray;
         }     
     
-    /* end header nav */    
+    /* end old nav */    
     
-                
+/* new nav */
+
+.headerNav {
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    background-color:cadetblue;
+    padding: 10px 10px 10px 10px;
+    }
+    
+.logo {
+    display: grid;
+    }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color:cadetblue;
+    }
+
+li {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+    text-align: right;
+    color:darkslategray;
+    }
+      
+li a {
+    display: inline-block;
+    color: #000;
+    padding: 2px 8px;
+    text-decoration: none;
+    }
+      
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+    }
+
+/* new nav */     
     
     
 
-    .logo1 {
-        display: block;
-        margin-right: auto;
-        width: 100%;
-        }
+.logo1 {
+    display: block;
+    margin-right: auto;
+    width: 90%;
+    }
         
-    .logo2 {
-        display: block;
-        margin-left: auto;
-        width: 80%;
-       } 
+.logo2 {
+    display: block;
+    margin-left: auto;
+    width: 80%;
+    } 
         
  
-    .section-container {
-        display: grid;
-        grid-template-columns: 700px 585px;
-        }
-    .logoBox {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        padding: 10px;
-        }
+.section-container {
+    display: grid;
+    grid-template-columns: 700px 585px;
+    }
+
+.logoBox {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding: 10px;
+    }
     
-    .contact-container {
-        display: flex;
-        flex-direction: column;
-        }
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    }
                         
-    .contactBox {
-        padding-left: 10px;
-        }
+.contactBox {
+    padding-left: 10px;
+    }
                         
-    .contactBox-logos-1 {
-        min-height: 30px;
-        margin-right: 10px;
-        }
+.contactBox-logos-1 {
+    min-height: 30px;
+    margin-right: 10px;
+    }
 
 /* grids */      
 
-    .grid-container {
-        display: grid;
-        padding-left: 5%;
-        padding-right: 5%;
-        grid-template-columns: repeat(7, 1fr);
-        grid-gap: 20px;
+.grid-container {
+    display: grid;
+    padding-left: 5%;
+    padding-right: 5%;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 20px;
         }
 
-    .grid-item {
-        border: dotted red;
-        border-width: 1px;
-        }
+.grid-item {
+    border: dotted red;
+    border-width: 1px;
+    }
 
-    .item-1 {
-        grid-column-start: 1;
-        grid-column-end: 4;
-     
+.item-1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    }   
 
-        }   
-    .item-2 {
-        grid-column-start: 4;
-        grid-column-end: 8;
-        grid-row: 1 / 12;
-        }    
-    .item-3 {
-        grid-column-start: 1;
-        grid-column-end: 4;
-        grid-row-start: 2;
-        grid-row-end: 9;
-        }    
-    .item-4 {
-        grid-column-start: 4;
-        grid-column-end: 8;
-        grid-row-start: 4;
-        grid-row-end: 9;
-
+.item-2 {
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row: 1 / 12;
     }    
-    .item-5 {
-        grid-column-start: 1;
-        grid-column-end: 4;
-        grid-row-start: 9;
-        grid-row-end: 10;
+
+.item-3 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 9;
+    }    
+
+.item-4 {
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row-start: 4;
+    grid-row-end: 9;
+    }    
+    
+.item-5 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 9;
+    grid-row-end: 10;
     }  
 
 .casestudyimg {
-        width: 100%;
-        height: auto;
-        padding: 0;
-        }
+    width: 100%;
+    height: auto;
+    padding: 0;
+    }
         
     
 
@@ -517,24 +599,8 @@ h2 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     
-    }
+    
     /* end of responsive-------------------------------------------------------------------*/
     
     
@@ -542,22 +608,16 @@ h2 {
     
 
     
-    .p2 {
-        font-family: monospace;
-        color:darkslategray;
-        font-size: 1em;
-        line-height: 135%;
-    }
 
-    .ulmenugrid {
-        margin-top: 0px;
-        }
+
+.ulmenugrid {
+    margin-top: 0px;
+    }
     
-    .pfooter{
-    
-        font-family: monospace;
-        color:lemonchiffon;
-        font-size: .5em;
+.pfooter{
+    font-family: monospace;
+    color:lemonchiffon;
+    font-size: .5em;
     }
     
     .footerli {
