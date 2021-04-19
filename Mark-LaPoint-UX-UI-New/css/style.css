@@ -2,7 +2,7 @@
 
 /* max: 700px--------------------------------------------------------- */
 
-@media only screen and (max-device-width:700px){
+@media only screen and (max-device-width:414px){
 
 .bodyStyle {
     margin: 0px;
@@ -12,15 +12,15 @@
 h2 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.5em;
+    line-height: 125%;
     }  
     
 .p1 {
     font-family: monospace;
     color:gray;
-    font-size: 1em;
-    line-height: 135%;
-    } 
-     
+    font-size: 1.15em;
+    line-height: 125%;
+    }    
     
 .headerNav {
     display: grid;
@@ -28,112 +28,15 @@ h2 {
     background-color:cadetblue;
     }
 
-.logo {
-    display: grid;
-    padding-left: 10px;
-    padding-top: 10px;
-    justify-content: left;
-    }
-        
-/*Grid Items*/
-
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 100px 100px 100px 100px 100px 100px;
-    grid-gap: 10px;
-    }
-    
-.grid-item {
-    border: dotted red;
-    border-width: 1px;
-    }
-    
-.item-1 {
-    padding-left: 10px;
-    padding-right: 10px;
+.nav-item {
     grid-column-start: 1;
-    grid-column-end:3;
-    }   
-        
-.item-2 {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row: 5 / 9;
-    }    
-
-.item-3 {
-    padding-right: 10px;
-    padding-left: 10px;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 7;
-    }    
-
-.item-4 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 4;
-    grid-row-end: 9;
-    }    
-       
-.item-5 {
-    padding-left: 10px;
-    padding-right: 10px;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 9;
-    grid-row-end: 10;
-    } 
-
-.logo1 {
-    display: block;
-    margin-right: auto;
-    width: 90%;
-    }
-            
-.logo2 {
-    display: block;
-    margin-left: auto;
-    width: 80%;
-    } 
-
-/*
-    
-    ul  {
-        list-style-type: none;
-        }
-    
-    li {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 1.25em;
-        text-align: right;
-        color:darkslategray;
-        display:list-item;
-        text-decoration: none;
-        }
-    
-    li a {
-        display: inline-block;
-        text-decoration: none;
-        }
-    li a:link {
-        color:darkslategray;
-        }   
-        
-    li a:visited {
-        color:darkslategray;
-        } 
-    
-    li a:active {
-        color:darkslategrey;
-        }         
-    
-    */
+    padding: 10px 0px 10px 10px;
+    }     
 
 
-/* new nav */
+
+
+    /* new nav */
 ul {
     list-style-type: none;
     margin: 0;
@@ -162,7 +65,60 @@ li a:hover {
     color: white;
     }
 
-/* new nav */     
+/* new nav */ 
+        
+/*Grid Items*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    grid-gap: 10px;
+    }
+    
+.grid-item {
+    border: dotted red;
+    border-width: 1px;
+    }
+    
+.item-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+    grid-column: 1 / 1;
+    grid-row: 1 / 2;
+    }   
+        
+.item-2 {
+    grid-column: 1 / 1;
+    grid-row: 6 / 12;
+    }    
+
+.item-3 {
+    padding-right: 10px;
+    padding-left: 10px;
+    grid-column: 1 / 1;
+    grid-row: 2 / 6;
+    }    
+
+.item-4 {
+    grid-column: 1 / 1;
+    grid-row: 12 / 13;
+    }    
+
+/* end grid */    
+
+
+.logo1 {
+    display: block;
+    margin-right: auto;
+    width: 90%;
+    }
+            
+.logo2 {
+    display: block;
+    margin-left: auto;
+    width: 80%;
+    }    
     
 .casestudyimg {
     width: 100%;
@@ -189,10 +145,10 @@ li a:hover {
 }
     
     
-/* 701-1000px--------------------------------------------------------- */
+/* Medium Sized Screens--------------------------------------------- */
+/* Medium Sized Screens--------------------------------------------- */    
     
-    
-@media only screen and (min-device-width:481px) and (max-width:1000px){
+@media only screen and (min-device-width:415px) and (max-width:768px){
     
     
         
@@ -204,68 +160,33 @@ li a:hover {
 
 h2 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.25em;
     }    
     
 .p1 {
     font-family: monospace;
     color:gray;
-    font-size: 1em;
-    line-height: 135%;
+    font-size: .85em;
+    line-height: 125%;
     }
         
 /* top nav */
 .headerNav {
     display: grid;
-    grid-template-columns: 6fr 1fr;
+    grid-template-columns: 1fr 6fr;
     background-color:cadetblue;
-     }
-
-.logo {
-    grid-column-start: 1;
-    padding-top: 1em;
-    padding-left: 1em;
+    margin: 0 0 1em 0;
     }
 
+.nav-item {
+    grid-column-start: 1;
+    padding: 10px 0px 10px 10px;
+    } 
 
-/* old nav          
-    
-    ul  {
-        list-style-type: none;
-        overflow: hidden;
-        }    
-            
-    li {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 1.25em;
-        text-align: right;
-        color:darkslategray;
-        display:list-item;
-        text-decoration: none;
-        }
-            
-    li a {
-        text-decoration: none;
-        }
-            
-    li a:link {
-        color:darkslategray;
-        }   
-                
-    li a:visited {
-        color:darkslategray;
-        } 
-            
-    li a:active {
-        color:darkslategray;
-        }   
-            
-    li a:hover {
-        color:darkslategray;
-        } 
-*/  
+
 
 /* new nav */
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -275,18 +196,20 @@ ul {
     }
 
 li {
+    display: inline;
+    float: right;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: .75em;
+    font-size: .85em;
     text-align: right;
     color:darkslategray;
     }
       
 li a {
-        display: block;
-        color: #000;
-        padding: 2px 8px;
-        text-decoration: none;
-        }
+    display: block;
+    color: #000;
+    padding: 2px 8px;
+    text-decoration: none;
+    }
       
 /* Change the link color on hover */
 li a:hover {
@@ -294,17 +217,18 @@ li a:hover {
     color: white;
     }
 
-/* new nav */
+/* end new nav */
 
 
 /* grids */ 
      
 .grid-container {
     display: grid;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 4%;
+    padding-right: 4%;
     grid-template-columns: repeat(7, 1fr);
-    grid-gap: 10px;
+    grid-template-rows: repeat(128px);
+    grid-gap: 20px;
     }
 
 .grid-item {
@@ -313,42 +237,26 @@ li a:hover {
     }
 
 .item-1 {
-    padding-left: 0px;
-    padding-right: 0px;
-    grid-column-start: 1;
-    grid-column-end: 4;
-     }   
+    grid-column: 1/ 4;
+    grid-row-start: 1 / 1;
+
+    }   
 
 .item-2 {
-    grid-column-start: 4;
-    grid-column-end: 8;
-    grid-row: 1 / 12;
+    grid-column: 4 / 8;
+    grid-row: 1 / 9;
     }    
 
 .item-3 {
-    padding-left: 0px;
-    padding-right: 0px;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 9;
+    grid-column: 1 / 4;
+    grid-row: 2 / 5
     }    
 
 .item-4 {
-    grid-column-start: 4;
-    grid-column-end: 8;
-    grid-row-start: 4;
-    grid-row-end: 9;
-    }    
-
-.item-5 {
-    padding-left: 0px;
-    padding-right: 0px;
     grid-column-start: 1;
     grid-column-end: 4;
-    grid-row-start: 9;
-    grid-row-end: 10;
-    }
+    grid-row: 5 / 6;
+    }  
     
 .logo1 {
     display: block;
@@ -379,14 +287,17 @@ li a:hover {
     
 /* 1001-3000px------------------------BIG SCREENS----------------------- */
     
-@media only screen and (min-device-width:701px) and (max-width:3000px){
-
+@media only screen and (min-device-width:769px) and (max-width:3000px){
+.bodyStyle {
+    margin: 0px;
+    background-color:lightsalmon;
+    } 
+        
 h2 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.75em;
-    line-height: 135%;
-    }    
-    
+    line-height: 125%;
+    }        
     
 .p1 {
     font-family: monospace;
@@ -394,80 +305,32 @@ h2 {
     font-size: 1.25em;
     line-height: 135%;
     }
-    
-    
-.bodyStyle {
-    margin: 0px;
-    background-color:lightsalmon;
-    }
-    
 
-    
-/* old nav   
-    
-    .ulmenugrid {
-        display: grid;
-        grid-template-columns: repeat(5, 20%);
-        }
-          
-    
-    ul  {
-        list-style-type: none;
-        overflow: hidden;
-        }    
-            
-    li {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 1.25em;
-        text-align: right;
-        color:darkslategray;
-        display:list-item;
-        text-decoration: none;
-        }
-            
-    li a {
-        text-decoration: none;
-        }
-            
-    li a:link {
-        color:darkslategray;
-        }   
-                
-    li a:visited {
-        color:darkslategray;
-        } 
-            
-    li a:active {
-        color:darkslategray;
-        }   
-            
-    li a:hover {
-        color:darkslategray;
-        }     
-    
-    /* end old nav */    
-    
 /* new nav */
 
 .headerNav {
     display: grid;
-    grid-template-columns: 5fr 3fr;
+    grid-template-columns: 1fr 6fr;
     background-color:cadetblue;
-    padding: 10px 10px 10px 10px;
+    margin: 0 0 2em 0;
     }
-    
+
+.nav-item {
+    padding: 10px 0px 10px 30px;
+    }       
+
 .logo {
-    display: grid;
+    float: right;   
     }
+
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
+    list-style-type:none;
     background-color:cadetblue;
     }
 
 li {
+    display: inline;
+    float: right;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1em;
     text-align: right;
@@ -487,9 +350,8 @@ li a:hover {
     color: white;
     }
 
-/* new nav */     
-    
-    
+/* end new nav */     
+ 
 
 .logo1 {
     display: block;
@@ -500,20 +362,9 @@ li a:hover {
 .logo2 {
     display: block;
     margin-left: auto;
-    width: 80%;
+    margin-top: -3px;
+    width: 70%;
     } 
-        
- 
-.section-container {
-    display: grid;
-    grid-template-columns: 700px 585px;
-    }
-
-.logoBox {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    padding: 10px;
-    }
     
 .contact-container {
     display: flex;
@@ -533,11 +384,12 @@ li a:hover {
 
 .grid-container {
     display: grid;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 4%;
+    padding-right: 4%;
     grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(128px);
     grid-gap: 20px;
-        }
+    }
 
 .grid-item {
     border: dotted red;
@@ -545,63 +397,50 @@ li a:hover {
     }
 
 .item-1 {
-    grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column: 1/ 4;
+    grid-row-start: 1 / 1;
+
     }   
 
 .item-2 {
-    grid-column-start: 4;
-    grid-column-end: 8;
-    grid-row: 1 / 12;
+    grid-column: 4 / 8;
+    grid-row: 1 / 9;
     }    
 
 .item-3 {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 9;
+    grid-column: 1 / 4;
+    grid-row: 2 / 5
     }    
 
 .item-4 {
-    grid-column-start: 4;
-    grid-column-end: 8;
-    grid-row-start: 4;
-    grid-row-end: 9;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row: 5 / 6;
     }    
-    
+/* unused    
 .item-5 {
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 9;
     grid-row-end: 10;
     }  
+*/    
 
 .casestudyimg {
     width: 100%;
     height: auto;
     padding: 0;
     }
-        
+
+
+    /* grids */        
     
 
 
 
-    }    
-
-
-
-
-
-
-/* grids */ 
-
-
-
-
-
-    
-    
-    /* end of responsive-------------------------------------------------------------------*/
+}    
+     
+/* end of responsive-------------------------------------------------------*/
     
     
     
@@ -655,94 +494,5 @@ li a:hover {
         margin-top: 10px;
         padding: 10px;
         background-color: darkslategray;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 3fr 4fr;
         }
-
-
-
-            /*not used
-    .flexbox-Menu {
-        display: grid;
-        justify-content: right;
-        background-color: darkorange;
-        }
-
-        .logoChild-1 {
-        display: grid;
-        }
-                
-    .logoChild-2 {
-        display: grid;
-        }
-            .main-section {
-        padding-left: 6em;
-        padding-right: 6em;
-    } 
-    .box-Item {
-        display: grid;  
-        }  
-    
-    .boxItem-1 {
-        grid-row-start: 2;
-        padding: 0px 10px 0px 10px;
-        }
-        
-    .boxItem-2 {
-        grid-row-start: 2;
-        grid-row-end: 3;
-        padding: 0px 10px 0px 10px;
-        }
-        
-    .boxItem-3 {
-        display: grid;
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 1;
-    
-        padding: 0px 10px 10px 10px;
-        }
-    
-    .boxItem-4 {
-        display: grid;
-        padding: 0px 10px 10px 10px;
-        }
-    
-    .boxItem-5 {
-        display: grid;
-        padding: 0px 10px 10px 10px;
-        } 
-            
-    .logoChild-1 {
-        display: flex;
-        justify-content: flex-start;
-        }
-    
-    .logoChild-2 {
-        display: flex;
-        justify-content: flex-end;
-        }
-    .footer {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        height: 100px;
-        margin-top: 10px;
-        padding: 10px;
-        background-color: darkslategray;
-    }
-
-        .flexbox-Menu {
-        display: grid;
-        justify-content: right;
-        background-color: darkorange;
-        }
-    
-    .logoBox {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        padding: 10px;
-        }
-
-
-
-    not used  */ 
