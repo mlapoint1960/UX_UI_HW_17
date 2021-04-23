@@ -3,78 +3,89 @@
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
 <link rel="stylesheet" href="/css/style.css">
 <title>Mark LaPoint UX/UI Design</title>
 </head>
-<body class="bodyStyle">
-<header> 
-<div class="headerNav">
-<div class="nav-item"><img src="/images/mark_lapoint_logo.svg" alt="Mark LaPoint UX/UI">
-</div>
-<div>
-<ul>
-<li><a href="#Portfolio">Portfolio</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#skills">Skills</a></li>
-<li><a href="#resume">CV</a></li>
-<li><a href="#Contact">Contact</a></li>
 
-</ul>
-</div>    
-</div>
-</header>
 
-<div class="grid-container">
-    <div class="grid-item item-1">item 1<img class="logo1" src="/images/Mark_LaPoint.svg" alt="Mark LaPoint UX UI Designer"><img class="logo2" src="/images/UI_Designer.svg" alt="UX/UI Designer"></div>
-    
-    <div class="grid-item item-2">item 2 <img class="casestudyimg" src="/images/Imagecasestudy.png" alt="Case Study Chess"><img class="casestudyimg" src="/images/Imagecasestudy2.png" alt="Case Study EPA"><img class="casestudyimg" src="/images/Imagecasestudy3.png" alt="Case Study Real Rent Duwamish"></div>
-    
-    <div class="grid-item item-3">item 3<h2>H2. Lorem ipsum dolor sit amet cectetur, adipng elit.</h2>
-    <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, similique? Quia, tempore, dignissimos inventore adipisci quae distinctio esse perferendis quod nisi doloremque a vitae commodi quasi explicabo nobis reiciendis ab?<br><br>
-    Architecto perspiciatis ea sunt a, ipsum laboriosam. Esse dolorem ab nihil delectus mollitia culpa quae autem nesciunt consequatur, pariatur illum nemo qui, eveniet dolores nostrum voluptas reprehenderit!
-    </p></div>
 
-    <div class="grid-item item-4">item 4<div class="contactBox"><p class="p1"><b>Contact:</p></b></div>
-    
-    <div class="flex-container-contact">
+
+<body>
+<container>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #5f9ea0;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="/images/mark_lapoint_logo.svg" alt="" width="50" height="auto">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">Portfolio</a>
+          <a class="nav-link" href="#">CV</a>
+          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#">Contact</a>
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+</container>
+<container>
+<div class="row">
+    <div class="col-lg-5 col-md-6 col-sm-6 col-xs-1">
+        <div>
+            <div><img class="logo1" src="/images/Mark_LaPoint.svg" alt="Mark LaPoint UX UI Designer"></div><div><img class="logo1" src="/images/UI_Designer.svg" alt="UX/UI Designer"></div>
+                 
+            <div><h2>An experienced web designer, employing the latest UX/UI tools and concepts; to help you create or redesign websites and apps that help users achieve their goals.</h2>
+            <p class="p1">Employing user research, discovering pain points, illustrated with user journey, empathy, affinity maps to discover solutions that are implemented by the creation of wireframes, for user testing, all the way to front-end UI design and development. My background is advertising <a href="https://www.effektpartners.com/portfolio/">art direction</a> and if anyone is good at solving problems it’s ad people. 
+            <br><br>
+            We all face the daunting task of navigating technology all day long, with varying levels of success/frustration. Steve Jobs created a one button TV remote because remotes have too many buttons! And he was right. My job is to cut through the clutter and create paths that are easy and intuitive for the user. The “customer always comes first” should apply to everything, not just restaurants. 
+            <br><br>
+            I use: 
+              <ul> 
+                <li>Figma</li>
+                <li>MIRO</li>
+                <li>Adobe Xd</li>
+                <li>Visual Studio Code</li>
+                <li>HTML5 & CSS3</li>
+                <li>Bootstrap</li>
+                <li>Wordpress</li>
+                <li>Responsive Web Design (mobile first)</li>
+                <li>Creative Cloud</li>
+                <li>etc.</li>
+              </ul>
+              <p class="p1">to make all this happen for you!</p>
+            </p>
+          </div>
+        </div>
         
-        <div><a href="https://www.linkedin.com/in/marklapoint1/"><img src="/images/LinkedIn@2x.svg" alt="Linkedin"></a></div>
-            
-        <div><a href="#"></a><img src="/images/Slack.svg" alt="Slack"></a></div>
-            
-            
-          <div><a href="mailto:marklapoint@gmail.com?Subject=Hello%20from%20" target="_top"><img src="/images/mail-24.svg" alt="email"></a></div>
+        <div class="hidden-xs">
+          <div><p class="p1"><b>Contact:</p></b></div>
+            <div class="flex-container-contact"><a href="https://www.linkedin.com/in/marklapoint1/"><img src="/images/LinkedIn@2x.svg" alt="Linkedin"></a>
+            </div>   
+        <div class="flex-container-contact"><a href="mailto:marklapoint@gmail.com?Subject=Hello%20from%20" target="_top"><img src="/images/mail-24.svg" alt="email"></a></div>
+    </div></div>     
+    <div class="col-lg-7 col-md-6 col-sm-6 col-xs-1">
+        <div><img class="casestudyimg" src="/images/Imagecasestudy.png" alt="Case Study Chess"></div>
+        <div>   <img class="casestudyimg" src="/images/Imagecasestudy2.png" alt="Case Study EPA"></div> 
+        
+        <div>
+        <img class="casestudyimg" src="/images/Imagecasestudy3.png" alt="Case Study Real Rent Duwamish"></div>
     </div>
-    </div>
-</div>
-  
-
-
-
-<div class="footer-grid-container">
-    <div class="grid-footer-item footer-item-1">
-        <p class="pfooter">&copy;2020-2021 - Mark LaPoint</p>
-    </div>
-
-
-    <div class="grid-footer-item footer-item-2">
-        <ul>
-            <li class="footerli"><a href="#Portfolio">Portfolio</a></li>
-            <li class="footerli"><a href="#about">About</a></li>
-            <li class="footerli"><a href="#skills">Skills</a></li>
-            <li class="footerli"><a href="#resume">CV</a></li>
-            <li class="footerli"><a href="#Contact">Contact</a></li>
-        </ul>
-    </div>
-
-
-
-
-
-
-</div>
-
-
+    
+</div>    
+    
+      </container>
+          <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

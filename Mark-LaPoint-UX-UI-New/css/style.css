@@ -1,536 +1,63 @@
 
 
-/* max: Small Screens--------------------------------------------------- */
-
-@media only screen and (max-device-width:414px){
-
-.bodyStyle {
-    margin: 0px;
-    background-color:thistle;
-    }
-    
-h2 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color:rgb(71, 71, 71);
-    font-size: 1.5em;
-    line-height: 125%;
-    }  
-    
-.p1 {
-    font-family: monospace;
-    color:rgb(71, 71, 71);
-    font-size: 1.15em;
-    line-height: 125%;
-    }    
-    
-/* new nav */    
-    
-.headerNav {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    background-color:cadetblue;
-    margin: 0 0 1em 0;
-    }
-
-.nav-item {
-    grid-column-start: 1;
-    padding: 10px 0px 10px 10px;
-    }
-
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color:cadetblue;
-    border: dotted red;
-    border-width: 1px;
-    }
-
-li {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1em;
-    text-align: right;
-    color:darkslategray;
-    }
-      
-li a {
-    display: block;
-    color: #000;
-    padding: 2px 8px;
-    text-decoration: none;
-    }
-      
-/* Change the link color on hover */
-li a:hover {
-    background-color: #555;
-    color: white;
-    }
-
-/* new nav */ 
-        
-/*Grid Items*/
-
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 100px 100px 100px 100px 100px 100px;
-    grid-gap: 10px;
-    }
-    
-.grid-item {
-    border: dotted red;
-    border-width: 1px;
-    }
-    
-.item-1 {
-    padding-left: 10px;
-    padding-right: 10px;
-    grid-column: 1 / 1;
-    grid-row: 1 / 2;
-    }   
-        
-.item-2 {
-    grid-column: 1 / 1;
-    grid-row: 6 / 12;
-    }    
-
-.item-3 {
-    padding-right: 10px;
-    padding-left: 10px;
-    grid-column: 1 / 1;
-    grid-row: 2 / 6;
-    }    
-
-.item-4 {
-    padding: 0 0 0 10px;
-    grid-column: 1 / 1;
-    grid-row: 12 / 13;
-    }    
-
-/* end grid */    
-
-
-.logo1 {
-    display: block;
-    margin-right: auto;
-    width: 90%;
-    }
-            
-.logo2 {
-    display: block;
-    margin-left: auto;
-    width: 70%;
-    }    
-    
-.casestudyimg {
-    width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-    }
-
-/* contact box */
-    
-.flex-container-contact {
-    display: flex;
-    } 
-
-.flex-container-contact > div {
-    margin-right: 1.5em;
-
-      }
-
-/* contact box */
-
+body {
+    background-color:rgb(245, 244, 181);
 
 }
+
     
-    
-/* Medium Sized Screens--------------------------------------------- */
 
+/* bootstrap */
+   
 
-
-
-
-/* Medium Sized Screens--------------------------------------------- */    
-    
-@media only screen and (min-device-width:415px) and (max-width:768px){
-    
-    
-        
-    
-.bodyStyle {
-    margin: 0px;
-    background-color:khaki;
-    }
-
-h2 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color:rgb(71, 71, 71);
-    font-size: 1.25em;
-    line-height: 125%;
-    }    
-    
-.p1 {
-    font-family: monospace;
-    color:gray;
-    font-size: .85em;
-    line-height: 125%;
-    }
-        
-/* top nav */
-.headerNav {
-    display: grid;
-    grid-template-columns: 1fr 6fr;
-    background-color:cadetblue;
-    margin: 0 0 1em 0;
-    }
-
-.nav-item {
-    grid-column-start: 1;
-    padding: 10px 0px 10px 10px;
-    } 
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    border: dotted red;
-    border-width: 1px;
-    }
-
-li {
-    display: inline;
-    float: right;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: .85em;
-    text-align: right;
-    color:darkslategray;
-    }
-      
-li a {
-    display: block;
-    color: #000;
-    padding: 2px 8px;
-    text-decoration: none;
-    }
-      
-/* Change the link color on hover */
-li a:hover {
-    background-color: #555;
-    color: white;
-    }
-
-/* end nav */
-
-
-/* grids */ 
-     
-.grid-container {
-    display: grid;
-    padding-left: 4%;
-    padding-right: 4%;
-    grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(128px);
-    grid-gap: 10px;
-    }
-
-.grid-item {
-    border: dotted red;
-    border-width: 1px;
-    }
-
-.item-1 {
-    grid-column: 1/ 4;
-    grid-row-start: 1 / 1;
-
-    }   
-
-.item-2 {
-    grid-column: 4 / 8;
-    grid-row: 1 / 9;
-    }    
-
-.item-3 {
-    grid-column: 1 / 4;
-    grid-row: 2 / 5
-    }    
-
-.item-4 {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row: 5 / 6;
-    }  
-    
 .logo1 {
     display: block;
     margin-right: auto;
-    width: 90%;
-    }
-            
-.logo2 {
-    display: block;
-    margin-left: auto;
-    width: 80%;
-    }     
-
-
-.casestudyimg {
     width: 100%;
-    height: auto;
-    padding: 0;
-    }
-
-/* contact box */
-    
-.flex-container-contact {
-    display: flex;
-    } 
-
-.flex-container-contact > div {
-    margin-right: 1.5em;
-    }
-
-
- 
-    
-
-/* contact box */
-    
-    
-    
-}
-    
-/* 1001-3000px------------------------BIG SCREENS----------------------- */
-    
-/* 1001-3000px------------------------BIG SCREENS----------------------- */
-    
-@media only screen and (min-device-width:769px) and (max-width:3000px){
-.bodyStyle {
-    margin: 0px;
-    background-color:lightsalmon;
-    } 
-        
-h2 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color:rgb(71, 71, 71);
-    font-size: 1.75em;
-    line-height: 125%;
-    }        
-    
-.p1 {
-    font-family: monospace;
-    color:gray;
-    font-size: 1.25em;
-    line-height: 135%;
-    }
-
-/* new nav */
-
-.headerNav {
-    display: grid;
-    grid-template-columns: 1fr 6fr;
-    background-color:cadetblue;
-    margin: 0 0 2em 0;
-    }
-
-.nav-item {
-    padding: 10px 0px 10px 10px;
-    }       
-
-.logo {
-    float: right;   
-    }
-
-ul {
-    margin: 0;
-    padding: 0;
-    border: dotted red;
-    border-width: 1px;
-    list-style-type:none;
-  
-    }
-
-li {
-    display: inline;
-    float: right;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1em;
-    text-align: right;
-    color:darkslategray;
-    }
-      
-li a {
-    display: inline-block;
-    color: #000;
-    padding: 2px 8px;
-    text-decoration: none;
-    }
-      
-/* Change the link color on hover */
-li a:hover {
-    background-color: #555;
-    color: white;
-    }
-
-/* end new nav */     
- 
-
-.logo1 {
-    display: block;
-    margin-right: auto;
-    width: 90%;
     }
         
 .logo2 {
     display: block;
     margin-left: auto;
     margin-top: -3px;
-    width: 70%;
+    width: 60%;
     } 
-    
-.contact-container {
-    display: flex;
-    flex-direction: column;
-    }
-                        
-.contactBox {
-    padding-left: 10px;
-    }
-                        
-.contactBox-logos-1 {
-    min-height: 30px;
-    margin-right: 10px;
-    }
-
-/* grids */      
-
-.grid-container {
-    display: grid;
-    padding-left: 4%;
-    padding-right: 4%;
-    grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(128px);
-    grid-gap: 20px;
-    }
-
-.grid-item {
-    border: dotted red;
-    border-width: 1px;
-    }
-
-.item-1 {
-    grid-column: 1/ 4;
-    grid-row: 1 / 1;
-
-    }   
-
-.item-2 {
-    grid-column: 4 / 8;
-    grid-row: 1 / 9;
-    }    
-
-.item-3 {
-    grid-column: 1 / 4;
-    grid-row: 2 / 5
-    }    
-
-.item-4 {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row: 5 / 6;
-    }
 
 .casestudyimg {
     width: 100%;
     height: auto;
-    padding: 0;
+    margin-bottom: 20px;
     }
 
-    /* contact box */
-    
-.flex-container-contact {
-    display: flex;
-    } 
-
-.flex-container-contact > div {
-    margin-right: 1.5em;
-
-      }
-
-/* contact box */
-
-    /* grids */        
-    
-
-
-
-}    
-     
-/* end of responsive-------------------------------------------------------*/
-    
-    
-.footer-grid-container {
-    display: grid;
-    margin: 20px 0 0 0;
-    background-color: darkslategray;
-    grid-template-rows: 1fr 1fr;
-    }   
-    
-.pfooter{
-    font-family: monospace;
-    color:lemonchiffon;
-    font-size: .55em;
+.row {
+    margin: 2em 2% 2em 2%;
     }
-    
-.footerli {
+
+.navbar {
+    padding: 0 2% 0 2%;
+    }
+
+h2 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: .55em;
-    text-align: right;
-    color:antiquewhite;
-    display:list-item;
-    text-decoration: none;
-    background-color: darkslategray;
-    }
-
-.grid-footer-item {
-    border: dotted red;
-    border-width: 1px;
-    }
-
-.footer-item-1 {
-    padding: 0 0 0 10px;
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-}
-
-.footer-item-2 {
-    grid-column: 2 / 1;
-    grid-row: 1 / 3;
-} 
-    
-ul {
-    float: right;
-    display: inline;
-    }
-    
-li a {
-    display: inline-block;
-    text-decoration: none;
-    }
-
-li a:link {
-    color:antiquewhite;
-    }   
+    color:rgb(71, 71, 71);
+    font-size: 1.25em;
+    line-height: 125%;
+    }    
         
-li a:visited {
-    color:antiquewhite;
+.p1 {
+    font-family: monospace;
+    color:gray;
+    font-size: .85em;
+    line-height: 145%;
+    }
+
+li {
+    font-family: monospace;
+    color:gray;
+    font-size: .85em;
+    line-height: 145%;
+    }
+
+.flex-container-contact {
+    display: inline-block;
     } 
-    
-li a:active {
-    color:darkslategrey;
-    } 
-
-    
-
-
