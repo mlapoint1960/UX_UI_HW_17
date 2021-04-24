@@ -72,13 +72,6 @@ li {
     line-height: 145%;
     }
 
- li text-light {
-        font-family: monospace;
-        color:lemonchiffon;
-        font-size: 1em;
-        line-height: 145%;
-        }
-
 .flex-container-contact {
     display: inline-block;
     } 
@@ -89,3 +82,10 @@ li {
     max-width: 100%;
     max-height: auto;
     }
+
+    .img-responsive-2 {
+        display: inline-block;
+        float: right;
+        max-width: 100%;
+        max-height: auto;
+        }
