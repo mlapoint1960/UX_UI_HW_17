@@ -59,11 +59,11 @@ h2 {
     }
 
 .text-uppercase {
-        font-family: monospace;
-        color:lemonchiffon;
-        font-size: 1.25em;
-        line-height: 145%;
-        }
+    font-family: monospace;
+    color:lemonchiffon;
+    font-size: 1.25em;
+    line-height: 145%;
+    }
 
 li {
     font-family: monospace;
@@ -83,9 +83,22 @@ li {
     max-height: auto;
     }
 
-    .img-responsive-2 {
-        display: inline-block;
-        float: right;
-        max-width: 100%;
-        max-height: auto;
-        }
+.img-responsive-2 {
+    display: inline-block;
+    float: right;
+    max-width: 100%;
+    max-height: auto;
+    }
+
+#container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background: yellow;
+    }
+#animate {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: red;
+}
