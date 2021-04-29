@@ -75,10 +75,43 @@
             <div class="flex-container-contact"><a href="https://www.linkedin.com/in/marklapoint1/" rel="noopener" target="_blank"><img src="/images/LinkedIn@2x.svg" alt="Linkedin"></a>
             </div>   
         <div class="flex-container-contact"><a href="mailto:marklapoint@gmail.com?Subject=Hello%20from%20" target="_top"><img src="/images/mail-24.svg" alt="email"></a></div>
-    </div></div>    
+    </div>
+  
+  
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Call me
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+  
+  
+  </div>    
      
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-1">
-        <div><img class="casestudyimg" src="/images/epa-front-index.png" alt="Environmantal Protection Agency"></div>
+        <div><a href="/mark-lapoint-epa-casestudy.html"><img class="casestudyimg" src="/images/epa-front-index.png" alt="Environmantal Protection Agency"></div></a>
         <div><img class="casestudyimg" src="/images/Imagecasestudy2.png" alt="Case Study EPA"></div> 
 
         <div>
@@ -87,19 +120,7 @@
     
 </div>    
 
-<!-- Single button -->
-<div class="btn-group">
-  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Action <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu">
-    <li><a href="#">Call me:</a></li>
-    <li><a href="#">Another action</a></li>
-    <li><a href="#">Something else here</a></li>
-    <li role="separator" class="divider"></li>
-    <li><a href="#">Separated link</a></li>
-  </ul>
-</div>
+
 
 
 
@@ -185,31 +206,6 @@
   <!-- Copyright -->
 </footer>
 </container>
-
-<p><button onclick="myMove()">Click Me</button></p> 
-
-<div id ="container">
-  <div id ="animate"></div>
-</div>
-
-<script>
-var id = null;
-function myMove() {
-  var elem = document.getElementById("animate");   
-  var pos = 0;
-  clearInterval(id);
-  id = setInterval(frame, 5);
-  function frame() {
-    if (pos == 350) {
-      clearInterval(id);
-    } else {
-      pos++; 
-      elem.style.top = pos + "px"; 
-      elem.style.left = pos + "px"; 
-    }
-  }
-}
-</script>
 
 <!-- Footer -->   
           <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
