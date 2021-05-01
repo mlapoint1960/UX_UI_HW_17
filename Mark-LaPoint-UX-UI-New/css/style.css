@@ -103,6 +103,10 @@ li {
     line-height: 145%;
     }
 
+.li:any-link {
+    color:darkslategray;
+}    
+
 .flex-container-contact {
     display: inline-block;
     margin:
