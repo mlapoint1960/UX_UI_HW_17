@@ -5,9 +5,7 @@ body {
     margin-left: auto;
     max-width: 1200px; /* or 950px */
     }
-.navbar-light {
-    background-color: sandybrown;
-}
+
   
 .bg-primary {
     background-color:#5f9ea0!important;
@@ -18,7 +16,10 @@ body {
     border-width: 2px;
     border-color:seagreen;
 }
-
+.jumbotron {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
 .logo1 {
     display: block;
     margin-right: auto;
