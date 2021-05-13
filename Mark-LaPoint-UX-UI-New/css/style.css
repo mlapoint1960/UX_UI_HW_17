@@ -1,12 +1,14 @@
 
 body {
     background-color:rgb(245, 244, 181);
+
+    }
+.main-content {
     margin-right: auto;
     margin-left: auto;
     max-width: 1200px; /* or 950px */
-    }
+}
 
-  
 .bg-primary {
     background-color:#5f9ea0!important;
 }
