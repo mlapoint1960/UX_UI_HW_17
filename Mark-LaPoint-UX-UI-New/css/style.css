@@ -9,6 +9,10 @@ body {
     max-width: 1200px; /* or 950px */
 }
 
+.card-body{
+    background-color:rgb(238, 195, 85);
+}
+
 .bg-primary {
     background-color:#5f9ea0!important;
 }
