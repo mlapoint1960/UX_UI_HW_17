@@ -9,6 +9,12 @@ body {
     max-width: 1200px; /* or 950px */
 }
 
+.navHeader {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px; /* or 950px */
+}
+
 .card-body{
     background-color:rgb(238, 195, 85);
 }
@@ -61,9 +67,7 @@ body {
     margin: 2em 2% 2em 2%;
     }
 
-.navbar {
-    padding: 0 2% 0 2%;
-    }
+
     
 svg {
     margin-left: .25em;
@@ -99,6 +103,13 @@ h2 {
     padding: 0 1em 0 1em;
     }
 
+.p3 {
+    font-family: monospace;
+    color:darkslategray;
+    font-size: 1.25em;
+    line-height: 145%;
+    }
+
 .figcaption {
     font-family: monospace;
     color:darkslategray;
@@ -130,6 +141,13 @@ li {
 .li:any-link {
     color:darkslategray;
 }    
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px; /* or 950px */
+
+}
 
 .flex-container-contact {
     display: inline-block;
