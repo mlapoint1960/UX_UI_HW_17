@@ -17,6 +17,7 @@ body {
 
 .card-body{
     background-color:rgb(238, 195, 85);
+    min-height: 160px;
 }
 
 .card-body-2{
