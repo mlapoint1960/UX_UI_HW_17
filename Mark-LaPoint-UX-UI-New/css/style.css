@@ -7,36 +7,39 @@ body {
     margin-right: auto;
     margin-left: auto;
     max-width: 1200px; /* or 950px */
-}
+    }
 
 .navHeader {
     margin-right: auto;
     margin-left: auto;
     max-width: 1200px; /* or 950px */
-}
+    }
 
 .card-body{
     background-color:rgb(238, 195, 85);
-    min-height: 160px;
-}
+    min-height: 100%;
+    }
 
 .card-body-2{
-    background-color:white;
-}
+    background-color:rgb(238, 195, 85);
+    margin: -40px 0 20px 0;
+    min-height: 125px;
+    padding: 20px;
+    }
 
 .bg-primary {
     background-color:#5f9ea0!important;
-}
+    }
 
 .btn-primary {
     background-color: sandybrown;
     border-width: 2px;
     border-color:seagreen;
-}
+    }
 .jumbotron {
     padding-top: 10px;
     padding-bottom: 5px;
-}
+    }
 .logo1 {
     display: block;
     margin-right: auto;
