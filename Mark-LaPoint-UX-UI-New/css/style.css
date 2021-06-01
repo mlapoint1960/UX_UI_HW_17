@@ -8,7 +8,12 @@ body {
     margin-left: auto;
     max-width: 1200px; /* or 950px */
     }
+.hr {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 200px; /* or 950px */
 
+}
 .navHeader {
     margin-right: auto;
     margin-left: auto;
