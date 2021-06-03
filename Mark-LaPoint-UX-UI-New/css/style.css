@@ -176,3 +176,14 @@ li {
     max-width: 100%;
     max-height: auto;
     }
+
+.container-footer {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1244px; /* or 950px */
+    }
+
+.text-left {
+    font-family: monospace;
+    font-size: 1em;
+    }
