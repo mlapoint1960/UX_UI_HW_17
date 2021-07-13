@@ -194,3 +194,7 @@ li {
     font-family: monospace;
     font-size: 1em;
     }
+
+.text-light {
+    color:#00ffff !important;
+}
