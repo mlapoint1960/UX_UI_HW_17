@@ -1,0 +1,56 @@
+{
+  "short_name": "MarkLaPointUX/UI",
+  "name": "Mark LaPoint UX/UI Consultant",
+  "start_url": "/index.html",
+  "background_color": "#5f9ea0",
+  "display": "standalone",
+  "theme_color": "#497575",
+  "orientation": "portrait",
+
+  "description": "Mark LaPoint UX/UI Consultant P:801-879-6802",
+
+  "icons": [
+    {
+      "src": "/images/icons/maskable_icon_x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/icons/maskable_icon_x384.png",
+      "type": "image/png",
+      "sizes": "384x384",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/icons/maskable_icon_x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/icons/maskable_icon_x144.png",
+      "type": "image/png",
+      "sizes": "144x144",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/icons/maskable_icon_x128.png",
+      "type": "image/png",
+      "sizes": "128x128",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/icons/maskable_icon_x96.png",
+      "type": "image/png",
+      "sizes": "96x96",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/icons/maskable_icon_x72.png",
+      "type": "image/png",
+      "sizes": "72x72",
+      "purpose": "any maskable"
+    }
+  ]
+}
