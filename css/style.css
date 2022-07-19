@@ -10,12 +10,6 @@ body {
   max-width: 1200px; /* or 950px */
 }
 
-.hr {
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 200px; /* or 950px */
-}
-
 .navbar {
   background-color: #4c9999 !important;
 }
@@ -28,6 +22,7 @@ body {
   margin-left: auto;
   max-width: 1200px; /* or 950px */
 }
+
 .nav-link {
   color:cornsilk !important;
 }
@@ -57,6 +52,7 @@ body {
   background-color: #5f9ea0 !important;
 }
 
+
 .btn-primary {
   background-color: sandybrown;
   border-width: 2px;
@@ -65,18 +61,6 @@ body {
 .jumbotron {
   padding-top: 10px;
   padding-bottom: 5px;
-}
-.logo1 {
-  display: block;
-  margin-right: auto;
-  width: 100%;
-}
-
-.logo2 {
-  display: block;
-  margin-left: auto;
-  margin-top: -3px;
-  width: 60%;
 }
 
 .casestudyimg {
@@ -100,6 +84,7 @@ body {
   display: block;
   margin-right: auto;
   width: 60px;
+  height: 60px;
 }
 
 .row {
@@ -137,7 +122,9 @@ svg {
   color: darkslategray;
   font-size: 0.5em;
 }
-
+.footer {
+  background-color:black;
+}
 .p1-footer {
   font-family: monospace;
   color: lemonchiffon;
@@ -196,7 +183,7 @@ li {
 
 .text-left {
   font-family: monospace;
-  font-size: 1em;
+  font-size: .75em;
 }
 
 .text-light {
@@ -228,4 +215,9 @@ h3 {
   color: darkslategray;
   font-size: 2em;
   line-height: 115%;
+}
+
+.bg-dark {
+  margin-left: auto;
+  margin-right: auto;
 }
