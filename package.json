@@ -1,0 +1,28 @@
+{
+  "name": "marks-uxui-portfolio",
+  "version": "2.0.0",
+  "description": "Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "yes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlapoint1960/my-ux-bootstrap-portfolio.git"
+  },
+  "keywords": [
+    "UXUI",
+    "Full",
+    "Stack",
+    "DEV"
+  ],
+  "author": "Mark LaPoint",
+  "license": "0BSD",
+  "bugs": {
+    "url": "https://github.com/mlapoint1960/my-ux-bootstrap-portfolio/issues"
+  },
+  "homepage": "https://github.com/mlapoint1960/my-ux-bootstrap-portfolio#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
+}
