@@ -205,8 +205,8 @@ h1 {
 
 h2 {
   font-family:'Nunito', sans-serif;
-  color: darkslategray;
-  font-size: calc(1vw + 2vmin);
+  color: rgb(75, 133, 133);
+  font-size: 30px;
   line-height: 110%;
 }
 
